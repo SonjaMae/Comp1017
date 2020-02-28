@@ -1,0 +1,14 @@
+body {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1200px 800px;
+    background-color: powderblue;
+}
+div {
+    width: 100px;
+    height: 100px;
+    background-color: lavender;
+    background-image: url("../img/lorem.png");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+}

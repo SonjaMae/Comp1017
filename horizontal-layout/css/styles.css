@@ -1,0 +1,23 @@
+body {
+	background-color: white;
+}
+h1 {
+	font-weight: bold;
+	font-size: 42px;
+}
+ul {
+	display: flex; /* lays the child items out horizontally */
+	flex-wrap: wrap;
+}
+li {
+	width: 192px; /* one fifth of 960px */
+	text-align: center; /* centers the text items in their content box */
+	margin-left: 10px;
+	padding-left: 10px;
+}
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+}

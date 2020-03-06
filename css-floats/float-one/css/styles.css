@@ -1,0 +1,36 @@
+body {
+	background-color: #ffffff;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+/*
+960 - 20 - 20 - 20 = 900
+900 / 2 = 450px width for each box
+*/
+
+main {
+	background-color: grey;
+	display: flex;
+}
+
+.box-left {
+	background-color: red;
+	height: 300px;
+	width: 450px;
+	margin: 20px;
+	margin-right: 10px;
+}
+
+.box-right {
+	background-color: blue;
+	height: 300px;
+	width: 450px;
+	margin: 20px;
+	margin-left: 10px;
+}

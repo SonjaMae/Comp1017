@@ -1,0 +1,43 @@
+body {
+	background-color: #ffffff;
+	font-family: verdana, sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+main {
+	background-color: grey;
+	display: flex;
+}
+
+/*
+960 - 30 - 30 - 30 - 30 = 840
+840 / 3 = 280px for each box
+*/
+
+.box-left, .box-middle, .box-right {
+	height: 300px;
+	width: 280px;
+	margin: 30px;
+}
+
+.box-left {
+	background-color: red;
+	margin-right: 15px;
+}
+
+.box-middle {
+	background-color: blue;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.box-right {
+	background-color: yellow;
+	margin-left: 15px;
+}

@@ -1,0 +1,48 @@
+body {
+	background-color: #ffffff;
+	font-family: verdana, sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+main {
+	display: flex;
+	background-color: grey;
+	border: 2px solid black;
+}
+
+/*
+960 - 10 - 10 - 10 - 10 = 920
+920 - 2 - 2 - 2 - 2 - 2 - 2 - 2 - 2 = 904
+904 / 3 = 301.3, 301.4, 301.3
+*/
+
+.box-left, .box-middle, .box-right {
+	height: 300px;
+	margin: 10px;
+	border: 2px solid black;
+}
+
+.box-left {
+	background-color: red;
+	width: 301.3px;
+	margin-right: 5px;
+}
+
+.box-middle {
+	background-color: blue;
+	width: 301.4px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.box-right {
+	background-color: yellow;
+	width: 301.3px;
+	margin-left: 5px;
+}
